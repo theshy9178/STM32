@@ -1,0 +1,36 @@
+# ---- Keil MDK 构建产物 ----
+Objects/
+Listings/
+DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.dep
+*.lnp
+*.iex
+*.sct
+*.map
+*.lst
+*.hex
+*.bin
+*.build_log.htm
+*.htm
+
+# ---- 调试器 / 器件配置 ----
+*.dbgconf
+JLinkLog.txt
+JLinkSettings.ini
+*.scvd
+
+# ---- Keil 个人界面设置（每个用户不同）----
+*.uvguix.*
+*.uvguix
+
+# ---- 编辑器 / 系统垃圾 ----
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.bak
+*~
